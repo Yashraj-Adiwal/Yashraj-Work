@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: rgb(75, 98, 175);
+}
+
+
+.navbar-brand{
+    
+    font-size: 32px;
+    padding-left: 50px;
+    color: white;
+}
+.navbar a{
+    
+    padding-right: 170px;
+    margin-left: 20px;
+    
+}
+.nav{
+background-color:rgb(75, 98, 175); 
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.btn{
+    font-weight: 100;
+    color: white;
+    background-color: #47b2e4;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.heading{
+    margin-top: 160px;
+    padding-right: 100px;
+    color: white;
+}
+
+.para{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.button{
+    margin-top: 22px;
+    margin-right: 200px;
+
+
+}
+.button a{
+    text-decoration: none; 
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+img{
+    width: 550px;
+    margin-top: 100px;
+}
+
+.sec-2{
+    background-color: white;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+}
+.button2{
+    background-color:#47b2e4 ;
+    color: white;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    border: none;
+}
+.paragraph{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.sec-3{
+    background-color: rgb(243, 243, 243);
+    padding-bottom:50px;
+}
+
+.head-2{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 32px;
+    color: rgb(50, 50, 126);
+}
+.p{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+.accordion-item{
+    margin-left: 20px;
+    padding: 10px;
+}
+.image2 img{
+width: 400px;
+margin-left: 100px;
+}
+
+.sec-4{
+    background-color: white;
+    padding-bottom:50px;
+}
+.image3{
+    width: 200px;
+}
+.h2{
+    margin-top: 65px;
+}
+.sec-5{
+    background-color: rgb(240, 240, 240);
+}
+.head-3{
+    padding-top:40px;
+}
+
+.para-5{
+    padding-bottom:40px;
+}
+.cards{
+    padding: 1;
+}
+
+
+
+  .Container {
+    position: relative;
+    max-width: 1300px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .Container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
